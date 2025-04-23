@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Jayesh Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="about.html">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      body {
+        background: radial-gradient(ellipse at center, #0d1b2a 0%, #000814 100%);
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+    
+      .glass {
+        backdrop-filter: blur(12px);
+        background: rgba(255, 255, 255, 0.05);
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.8);
+        border: 1px solid rgba(237, 237, 237, 0.1);
+      }
+    </style>
+    
+  </head>
+  <body class="min-h-screen text-white flex flex-col items-center justify-start py-10">
+
+ <!-- Navbar -->
+<!-- Navbar -->
+<nav class="w-[90%] max-w-6xl mx-auto py-4 flex items-center justify-between">
+
+    <!-- Left: Logo -->
+    <div class="text-2xl font-bold bg-gradient-to-r from-[rgb(59,130,246,0.5)] to-[#3b82f6] bg-clip-text text-transparent">
+      Jayesh
+    </div>
+    
+    
+    
+  
+    <!-- Center: Navigation Links with spacing -->
+    <ul class="flex gap-16 text-lg justify-center flex-1">
+      <li><a href="index.html" class="hover:text-[#3b82f6] transition duration-300">Home</a></li>
+<li><a href="about.html" class="hover:text-[#3b82f6] transition duration-300">About</a></li>
+<li><a href="project.html" class="hover:text-[#3b82f6] transition duration-300">Projects</a></li>
+<li><a href="skill.html" class="hover:text-[#3b82f6] transition duration-300">Skills</a></li>
+
+    </ul>
+  
+    <!-- Right: Email Icon -->
+    <div>
+      <a href="shuklajayesh201@gmail.com" class="text-xl text-gray-600 hover:text-[#3b82f6] transition duration-300">
+        <i class="fas fa-envelope"></i>
+      </a>
+      
+    </div>
+  </nav>
+  
+
+   <!-- Skills Section -->
+<section id="skills" class="w-[90%] max-w-6xl mx-auto mt-20 text-center">
+    <h2 class="text-3xl md:text-4xl font-bold text-white mb-10 drop-shadow-[0_0_10px_rgba(255,255,255,0.5)]">Skills</h2>
+  
+    <div class="grid md:grid-cols-2 gap-12 text-left">
+      <!-- UI/UX Skills -->
+      <div class="glass p-6 rounded-2xl shadow-lg">
+        <h3 class="text-2xl font-semibold text-[#3b82f6] mb-6">UI/UX Design </h3>
+        <ul class="list-disc list-inside text-gray-300 space-y-2">
+          <li>Prototype Creation</li>
+          <li>Wireframe Design</li>
+          <li>Figma</li>
+          <li>Inkscape</li>
+          <li>Canva</li>
+        </ul>
+      </div>
+  
+      <!-- Frontend Development Skills -->
+      <div class="glass p-6 rounded-2xl shadow-lg">
+        <h3 class="text-2xl font-semibold text-[#3b82f6] mb-6">Frontend Developer</h3>
+        <ul class="list-disc list-inside text-gray-300 space-y-2">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Basic JavaScript</li>
+          <li>Tailwind CSS (Basic)</li>
+          <li>Bootstrap (Basic)</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  
+  
+  <footer class="w-[90%] max-w-6xl mx-auto mt-20 pt-6 flex flex-col md:flex-row items-center justify-between gap-6 text-white">
+
+    <!-- Left: Logo -->
+    <div class="text-2xl font-bold text-[#3b82f6]">Jayesh</div>
+  
+  
+    <!-- Middle: Navigation Links -->
+    <ul class="flex flex-wrap justify-center gap-6 text-base text-gray-300">
+     
+<li><a href="about.html" class="hover:text-[#3b82f6] transition duration-300">About</a></li>
+<li><a href="project.html" class="hover:text-[#3b82f6] transition duration-300">Projects</a></li>
+<li><a href="skill.html" class="hover:text-[#3b82f6] transition duration-300">Skills</a></li>
+     
+    </ul>
+  
+    <!-- Right: Social Icons -->
+    <div class="flex gap-6 text-2xl text-pink-400">
+      <!-- LinkedIn -->
+      <!-- <a href="https://www.linkedin.com/in/your-profile" target="_blank" class="hover:text-white transition">
+        <svg fill="currentColor" viewBox="0 0 24 24" class="w-6 h-6">
+          <path d="M4.98 3.5C4.98 4.88 3.88 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1 4.98 2.12 4.98 3.5zM.5 8h4V24h-4V8zm7.5 0h3.84v2.16h.06c.54-1.02 1.86-2.16 3.84-2.16 4.1 0 4.86 2.7 4.86 6.21V24h-4v-8.64c0-2.07-.03-4.74-2.88-4.74-2.88 0-3.32 2.25-3.32 4.59V24h-4V8z"/>
+        </svg>
+      </a> -->
+  
+      <!-- Email -->
+      <div class="flex gap-6 text-2xl text-[#3b82f6]">
+        <div class="flex gap-4">
+          <a href="https://mail.google.com/mail/?view=cm&fs=1&to=shuklajayesh201@gmail.com" target="_blank" class="hover:text-[#3b82f6]">
+            <i class="fas fa-envelope"></i>
+          </a>
+          <a href="https://github.com/jay-gif-ui" target="_blank" class="hover:text-[#3b82f6]"><i class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/jayesh-shukla-31b215227/" target="_blank" class="hover:text-[#3b82f6]"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+      
+  
+  </footer>
+  
+  <!-- Copyright Line -->
+  <p class="text-gray-500 text-sm text-center mt-6 mb-4">
+    © 2025 Jayesh Shukla. All rights reserved.
+  </p>
+  
+ 
+  
+  
+  </body>
+</html>
